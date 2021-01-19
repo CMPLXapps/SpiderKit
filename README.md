@@ -8,4 +8,4 @@
 
 * Backdoor
 
-*Tools will be released on the `tools` branch seperately*
+*Tools will be released seperately as assets on a given release along with the full kit*
