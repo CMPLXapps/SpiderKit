@@ -3,8 +3,8 @@ import socket
 import os
 path = ''
 cwd = ''
-ip = 'null'
-port = 0
+ip = '0.0.0.0'
+port = 25565
 def listenForKillSwitch():
 	kill = socket.socket(socket.AF_INET)
 def recieve(s, buff=1024):
