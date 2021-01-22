@@ -8,9 +8,6 @@
                                                                                    |
  - @TERMINATE, ::t                                                                 | Terminates the program.
                                                                                    |
- - @PRINT, ::p <message>                                                           | Prints something to the victim's 
-                                                                                   | screen.
-                                                                                   |
  - @PYTHON, ::py <command>                                                         | Executes a Python command on the 
                                                                                    | victim's device.
                                                                                    |
