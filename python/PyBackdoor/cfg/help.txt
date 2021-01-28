@@ -1,0 +1,17 @@
+
+
+    -= Commands =-
+
+ - @HELP, ::?                                                                      | Provides a list of commands.
+                                                                                   |
+ - @GO, ::!                                                                        | Starts listening for a connecion.
+                                                                                   |
+ - @TERMINATE, ::t                                                                 | Terminates the program.
+                                                                                   |
+ - @INJECT, ::i [(-t, --target <destination-path>)] <path>                         | Sends a file or directory to the client 
+                                                                                   | and uploads it to the victims device,
+                                                                                   | '-t' and '--target' will define a
+                                                                                   | destination path (put in quotation marks).
+                                                                                   |
+ - @KILL, ::k                                                                      | Kills the connection.
+
