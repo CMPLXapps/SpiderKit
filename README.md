@@ -6,6 +6,6 @@
 
 ## Tools:
 
-* Backdoor
+* Backdoor (Java/Python)
 
 *Tools will be released seperately as assets on a given release along with the full kit*
