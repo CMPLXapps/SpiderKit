@@ -26,13 +26,13 @@ def listenForKillSwitch():
 		else:
 			continue
 def recieve(s, buff=1024):
-	global data
 	data = b''
 	while True:
 		packet = s.recv(buff)
 		data += packet
 		if len(packet) < buff:
 			break
+	return data
 def cd(newdir):
 	global path, cwd
 	path = os.path.normpath(f'{path}/{newdir}')
