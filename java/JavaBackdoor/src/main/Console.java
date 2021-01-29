@@ -6,7 +6,7 @@ public class Console {
 	
 	private static final Tools t = new Tools();
 	
-	public String run(String command) {
+	public String runcmd(String command) {
 		Runtime runtime = Runtime.getRuntime();
 		BufferedReader stdout = null;
 		BufferedReader stderr = null;
@@ -17,6 +17,7 @@ public class Console {
 		} catch (Exception e) {
 			t.print("Console Errored!\n\n");
 			e.printStackTrace();
+			return "Done; fatal error.";
 		}
 		String consoleStream = "Console Errored!\n\n";
 		try {

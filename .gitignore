@@ -1,3 +1,3 @@
 *.pyc
 test/*
-JavaBackdoor/.gitignore
+java/JavaBackdoor/.gitignore
