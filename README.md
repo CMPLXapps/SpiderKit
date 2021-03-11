@@ -1,5 +1,3 @@
 # Swordfish
 
-## Dependencies:
-
-* <a href="https://www.python.org/downloads/" target="_blank">Python 3</a>
+A general-purpose All-in-One backdoor for ethical hacking. Made with utility in mind.
