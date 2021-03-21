@@ -1,3 +1,3 @@
 # Swordfish: Backdoor Kit
 
-A general-purpose All-in-One backdoor for ethical hacking. Made with utility in mind.
+A Swordfish module that provides various different backdoors for different use-cases, as well as tools for administering them.
