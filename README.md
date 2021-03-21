@@ -1,3 +1,3 @@
 # Swordfish: Worm
 
-A general-purpose All-in-One backdoor for ethical hacking. Made with utility in mind.
+A silent worm for quietly opening backdoors, requires the Backdoor Kit to be installed.
