@@ -1,3 +1,7 @@
-*.pyc
 test/*
-java/JavaBackdoor/.gitignore
+eclipsew/*
+*/bin/*
+*.pyc
+*.classpath
+*.project
+*.pydevproject
