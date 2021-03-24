@@ -1,3 +1,5 @@
 # Swordfish
 
-A general-purpose All-in-One backdoor for ethical hacking. Made with utility in mind.
+A general-purpose backdoor for ethical hacking. Made with utility in mind.
+
+Made using a combination of C, Java, and Python.
