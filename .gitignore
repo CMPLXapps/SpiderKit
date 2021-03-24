@@ -1,6 +1,7 @@
 test/*
 eclipsew/*
-*/bin/*
+src/tools/backdoor/bin/*
+src/tools/worm/bin/*
 *.pyc
 *.classpath
 *.project
