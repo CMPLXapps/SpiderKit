@@ -1,5 +1,4 @@
-# Swordfish
+# Welcome to the Swordfish Hacking Repository!
 
-A general-purpose backdoor for ethical hacking. Made with utility in mind.
-
-Made using a combination of C#, Java, and Python.
+This is where I dump my sponaneous worms, viruses, etc. that
+I don't want to make individual repositories and website for.
