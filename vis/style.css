@@ -1,4 +1,7 @@
-body {font-family: Consolas; color:white; background-color:#16191C;}
+body {
+font-family:Consolas;
+color:white;
+background-color:#16191C;}
 .plaintxt {color:white;}
 p {color:white;}
 h1 {color:white;}
@@ -21,11 +24,9 @@ br.old {line-height:100%;}
 
 
 
-#page-label {
-	position:fixed;
-	top:10px;
-	left:47.46%;
-}
+.page-label { position:fixed; top:10px;
+} .pagelabel#home {left:47.46%;
+} .pagelabel#shr {left:47.46%;}
 
 #home-mainsitelnk {
 	text-decoration:none;
