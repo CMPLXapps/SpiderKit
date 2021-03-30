@@ -1,9 +1,4 @@
-body {
-	font-family: Consolas;
-	color:white;
-	background-color:#16191C;
-}
-
+body {font-family: Consolas; color:white; background-color:#16191C;}
 .plaintxt {color:white;}
 p {color:white;}
 h1 {color:white;}
@@ -15,21 +10,16 @@ h6 {color:white;}
 hr {color:white;}
 article {color:white;}
 section {color:white;}
-
-a {
-	color:red;
-}
-
-.imglnk {
-	color:white;
-}
-
+a {color:red;}
+.imglnk {color:white;}
 br {line-height:75%;}
 br.br1 {line-height:75%;}
 br.br2 {line-height:150%;}
 br.br3 {line-height:225%;}
 br.br4 {line-height:300%;}
 br.old {line-height:100%;}
+
+
 
 #page-label {
 	position:fixed;
