@@ -20,18 +20,18 @@ br.br1 {line-height:75%;}
 br.br2 {line-height:150%;}
 br.br3 {line-height:225%;}
 br.br4 {line-height:300%;}
-br.old {line-height:100%;}
+br.brsub {line-height:100%;}
 
 
 
-.page-label { position:fixed; top:10px;
-} .pagelabel#home {left:47.46%;
-} .pagelabel#shr {left:47.46%;}
+.page-label {position:fixed; top:10px;
+} #home.page-label {left:47.46%;
+} #shr.page-label {left:27.4%;}
 
-#home-mainsitelnk {
+#mainsitelnk {
 	text-decoration:none;
 	color:white;
 	position:fixed;
 	top:4px;
-	left:44.05%;
+	left:44.45%;
 }
