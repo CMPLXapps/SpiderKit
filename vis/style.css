@@ -28,6 +28,14 @@ br.brsub {line-height:100%;}
 } #home.page-label {left:47.46%;
 } #shr.page-label {left:27.4%;}
 
+#src-lnk {
+	position:fixed;
+	bottom:1%;
+	right:1%;
+	color:gray;
+	text-decoration:none;
+}
+
 #mainsitelnk {
 	text-decoration:none;
 	color:white;
