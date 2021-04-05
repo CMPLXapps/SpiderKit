@@ -2,7 +2,6 @@ body {
 font-family:Consolas;
 color:white;
 background-color:#16191C;}
-.plaintxt {color:white;}
 p {color:white;}
 h1 {color:white;}
 h2 {color:white;}
@@ -24,17 +23,20 @@ br.brsub {line-height:100%;}
 
 
 
+header {
+	background:#16191C;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+#wrapper {
+	width:100vw;
+}
+
 .page-label {position:fixed; top:10px;
 } #home.page-label {left:47.46%;
 } #shr.page-label {left:27.4%;}
-
-#src-lnk {
-	position:fixed;
-	bottom:1%;
-	right:1%;
-	color:gray;
-	text-decoration:none;
-}
 
 #mainsitelnk {
 	text-decoration:none;
@@ -42,4 +44,12 @@ br.brsub {line-height:100%;}
 	position:fixed;
 	top:4px;
 	left:44.45%;
+}
+
+#src-lnk {
+	position:fixed;
+	bottom:1%;
+	right:1%;
+	color:gray;
+	text-decoration:none;
 }
