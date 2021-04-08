@@ -1,3 +1,11 @@
+/* 
+ * Site Colors:
+ * 
+ * #16191C (22 25 28 RGB, 210 21.43 11 HSB)
+ * #424052 (66 64 82 RGB, 249 22 32 HSB)
+ * 
+ */
+
 body {
 font-family:Consolas;
 color:white;
@@ -24,7 +32,7 @@ br.brsub {line-height:100%;}
 
 
 header {
-	background:#16191C;
+	background:rgb(22, 25, 28, 0.5);
 	position:fixed;
 	top:0px;
 	left:0px;
